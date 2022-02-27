@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: hsl(210, 36%, 96%);
 }
 .center{
     display: flex;
