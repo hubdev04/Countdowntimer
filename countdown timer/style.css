@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: hsl(210, 36%, 96%);
 }
 .center{
     display: flex;
     position: relative;
     top: 10rem;
-    background-color: yellow;
+   
     width: 100vw;
 }
 .image{
@@ -15,7 +16,7 @@
     margin-bottom: 5rem;
     margin-left: 7rem;
     margin-bottom: 3rem;
-    border: 2px solid black;
+    
     
 }
 .image img{
@@ -43,9 +44,38 @@
     border: 2px solid red;
     margin-right: 1rem;
     width: 3.5rem;
+    background-color:hsl(209, 61%, 16%);
+    color: #fff;
+    text-align: center;
     
 }
 .deadline .dead1
 {
     margin-right: 1rem;
 }
+.sp{
+    
+}
+@media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.75rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    body {
+      font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1;
+    }
+  }
